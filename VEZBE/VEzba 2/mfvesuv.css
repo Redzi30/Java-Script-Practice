@@ -1,0 +1,22 @@
+div{
+    width: 650px;
+    height: 450px;
+    background-color: yellowgreen;
+    border: 2px solid black;
+    /*text-align: center;
+    */
+}
+img{
+    width: 650px;
+    height: 225px;
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+} 
+button{
+    margin-left: 50%;
+    
+}

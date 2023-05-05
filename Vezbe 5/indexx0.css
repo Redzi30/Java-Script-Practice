@@ -1,0 +1,26 @@
+table,td{
+    width: 600px;
+    height: 20px;
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+    }
+    td{
+         text-align: center;
+         border-bottom: 1px solid black;
+    }
+    th{
+        background-color: orange;
+        color: whitesmoke;
+        border-top: 1px solid black;
+        border-radius: 10px;
+    }
+    tr:hover{
+        background-color: lightgray;
+        color:orange;
+    }
+    table{
+        margin: auto;
+        margin-top: 100px;
+    }
+    
+    

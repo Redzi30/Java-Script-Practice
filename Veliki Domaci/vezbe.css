@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(randomgirl.png);
+    background-size: cover;
+}
+.box{
+    height: 15%;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 3;
+}
+.naslovsticky{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 189, 0);
+    font-size: xx-large;
+    margin-left: 20px;
+}
+.dugmence{
+    background-color:#3ac162;
+    color: whitesmoke;
+    border: none;
+    height: 30px;
+    border-radius: 15px;
+    width: 120px;
+    margin-left: 65%;
+    transition-timing-function: ease-in;
+    transition: 0.2s;
+}
+.naslovimage{
+    color: whitesmoke;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top: 200px;
+    margin-left: 2%;
+}
+.manjinaslov{
+    color: whitesmoke;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top: 220px;
+    margin-left: 2%;
+}
+.dugmence:hover{
+    background-color: green;
+}
+.belodugme{
+    background-color: whitesmoke;
+    border: none;
+    height: 30px;
+    border-radius: 15px;
+    width: 120px;
+    margin-top: 22%;
+    margin-left: 2%;
+    transition-timing-function: ease-in;
+    transition: 0.2s;
+}
+
+.belodugme:hover{
+    background-color: gray;
+}
+.fa-solid{
+    font-size: xx-large;
+    margin-left: 40px;
+}
+.fa-solid:hover{
+    color: gray;
+}
+.novaslidza{
+    height: 100vh;
+    width: 100%;
+    background-image: url(randomgirl2.png);
+    background-size: cover;
+}
+.naslovimagedva{
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    margin-left: 2%;
+    top: 30%;
+}
+.naslovv{
+    width: 80%;
+    height: 60%;
+}
+.fa-solid{
+    color: #3ac162;
+    position: relative;
+    right: 20px;
+}
+.malekartice{
+    height: 30%;
+    width: 20%;
+    background-color: blue;
+}

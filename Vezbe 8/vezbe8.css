@@ -1,0 +1,48 @@
+.div1{
+    height: 100px;
+    width: 400px;
+    /*transform: translate(200px,200px);*/
+    /* transform: rotate(20deg);*/
+  /* transform: scale(1,2);*/
+ /* transform: scaleY(2);*/
+ /*transition: 3s;*/
+/* transition-delay: 400ms;*/
+animation-name:random;
+animation-duration: 5s;
+animation-timing-function: ease-in-out;
+position: relative;
+}
+/* .div1:hover{
+    height: 600px;
+    width: 500px;
+    transform: translate(200px,300px);
+} */
+/* @keyframes Document4{ */
+    /* from{ */
+        /* background-color: bisque;} */
+    /* to{ */
+        /* background-color: red; */
+    /* } */
+/* } */
+@keyframes random{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    25%{
+        top: 0;
+        left: 300px;
+    }
+    50%{
+        top:0;
+        left: 300px;
+    }
+    75%{
+        top:0;
+        left: 300px;
+    }
+    100%{
+        top: 0;
+        left: 0;
+    }
+}

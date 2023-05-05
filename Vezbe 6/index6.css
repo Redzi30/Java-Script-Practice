@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1{
+ width: 100vw;
+ height: 100vh;
+ background-color: whitesmoke;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+
+}
+.malidiv1{
+    width: 70vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.bebadiv{
+    width: 48%;
+    height: 15%;
+    background-color: beige;
+}
+button{
+    width: 100px;
+    
+}

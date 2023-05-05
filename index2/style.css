@@ -1,0 +1,14 @@
+h1{
+    color:red
+}
+div{
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+margin: 50px;
+
+border: 1px black solid;
+border-radius: 40px;
+
+
+};

@@ -1,0 +1,18 @@
+.kartica{
+    background-color: beige;
+    height: 180px;
+    width: 320px;
+    border:2px black solid ;
+    border-radius: 5%;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: 20px;
+
+}
+.img{
+    width: 300px;
+    height: 90px;
+    border: 2px solid black;
+}
