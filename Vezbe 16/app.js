@@ -342,7 +342,7 @@
 
 
 
-const brojevi = [6, 5, 27, 28, 29, 31 ,33, 15]
+// const brojevi = [6, 5, 27, 28, 29, 31 ,33, 15]
 
 
 // const neparnibrojevi = brojevi.filter((el) => el % 2 === 0);
@@ -397,12 +397,109 @@ const brojevi = [6, 5, 27, 28, 29, 31 ,33, 15]
 // console.log(zbirElemenata / nizzaReduce.length)
 
 
-const OurfirstObject = {
-car: "Audi",
-vozac:"Redzi",
-godine: 18,
-};
-console.log(OurfirstObject);
+// const OurfirstObject = {                 OBJEKAT
+// car: "Audi",                   PROPERTY  KEY I VALUE    Key - 
+// vozac:"Redzi",
+// godine: 18,
+// };
+// console.log(OurfirstObject);
+
+
+// for(let i=0; i<100; i++){
+//     if (i % 3 === 0 && i % 5 === 0){
+//         console.log("FizzBuzz")
+//     }
+//     else if (i % 5 === 0){
+//         console.log("buzz")
+//     }
+//     else if (i % 3 === 0){
+//         console.log("fizz")
+//     }
+//     else {console.log(i)}
+//     }
+
+
+    // const Nizzvezbica = [1,2,3,4,5,6,7,8,9]
+    // Nizzvezbica.push(5,4)
+    // Nizzvezbica.unshift(9,3)
+    // console.log(Nizzvezbica)
+    // const novinizzzarad = Nizzvezbica.map(el => el*7)
+    // console.log(novinizzzarad)
+
+    // const filtrrr = novinizzzarad.filter(el => el%2 ===0)
+    // console.log(filtrrr)
+
+
+    // let c = 10
+    // c > 5 ? console.log("Vece je od 5"):console.log("Manje je od 5");
+
+
+    // a = 15;
+    // if(a > 20){console.log("Manji je");}
+    // else if(a < 20){console.log("Veci je");}
+    // else{console.log("poslednji");}
+    
+
+
+    const classroom = {
+        car : " Audi ",
+        model : " A4 ",
+        Pogon : " Quattro ",
+        Motor : " 2.0 ",
+        KS : 144,
+        IspisiAuto(){
+            console.log("U pitanju je auto" +  classroom.car + classroom.model + classroom.Pogon + classroom.Motor + classroom.KS);
+        
+        }
+    }
+    classroom.IspisiAuto();
+
+
+
+
+
+   
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
