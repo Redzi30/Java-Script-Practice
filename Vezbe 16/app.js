@@ -614,7 +614,45 @@
     //   console.log("Redzi")
 
 
-    
+    // const nasCustomObject = {
+    //   odelenje: "III - 10",
+    //   razred: "III",
+    //   brojLaptopova: 9,
+    //   brzina: 4,
+    //   jaciod: "svih",
+    //   brt: "da",
+    // }
+
+
+    // function ourFirstCallFunction(){
+    //   console.log(this.odelenje);
+    // }
+
+    // ourFirstCallFunction.call(nasCustomObject);
+
+
+//     function mojaPrvaApplyf(a,b){
+//       console.log(
+//         `${a} i ${this.odelenje} i ${b} i ${this.jaciod}`);
+//     }
+
+// mojaPrvaApplyf.apply(nasCustomObject,["Redzi", "najjaci"]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
