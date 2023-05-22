@@ -641,41 +641,46 @@
 
 
 
-let a = 5;
-function prva(){
-    console.log(a);
-}
-function druga(){
-    let a = 3;
-    console.log(a);
-}
-function treca(){
-    let a = 4;
-    console.log(a);
-}
+// let a = 5;
+// function prva(){
+//     console.log(a);
+// }
+// function druga(){
+//     let a = 3;
+//     console.log(a);
+// }
+// function treca(){
+//     let a = 4;
+//     console.log(a);
+// }
 
-prva();
-druga();
-treca();
-
-
+// prva();
+// druga();
+// treca();
 
 
 
-class Car {
-    marka;
-    model;
-    motor = "2.0";
-    menjac;
-    constructor(markaauta, modelauta,  menjacauta){
-        this.marka = markaauta;
-        this.model = modelauta;
-        this.menjac = menjacauta;
-    }
-}
 
-const podaciAuta = new Car("Audi","A4", "Saltac");
 
-console.log(podaciAuta);
+// class Car {
+//     marka;
+//     model;
+//     motor = "2.0";
+//     menjac;
+//     constructor(markaauta, modelauta,  menjacauta){
+//         this.marka = markaauta;
+//         this.model = modelauta;
+//         this.menjac = menjacauta;
+//     }
+// }
+
+// const podaciAuta = new Car("Audi","A4", "Saltac");
+
+// console.log(podaciAuta);
+
+
+console.log("Redzi");
+
+
 
 
