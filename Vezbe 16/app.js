@@ -672,14 +672,211 @@
 //         this.model = modelauta;
 //         this.menjac = menjacauta;
 //     }
-// }
+// }    
 
 // const podaciAuta = new Car("Audi","A4", "Saltac");
 
 // console.log(podaciAuta);
 
 
-console.log("Redzi");
+// console.log("Redzi");
+///////////////////////////////////////////////////////////////////////////////////////////
+// class Automobil{
+//     marka;
+//     model;
+//     motor;
+//     menjac;
+//     constructor(markaa, modell, motorr,menjacc){
+//         this.marka = markaa;
+//         this.model = modell;
+//         this.motor = motorr;
+//         this.menjac = menjacc;
+//         }
+
+//         helloCar(){
+//             console.log("cao");
+//         }
+//         changeColor(newColor){
+//             this.color = newColor;
+//         }
+//         getColor(){
+//             return this.color;
+//         }
+// }
+// const Podacikola = new Automobil("Audi", "A6","3.0","Automatski",)
+
+// console.log(Podacikola);
+
+
+
+// Podacikola.helloCar();
+
+// Podacikola.changeColor("zuta");
+
+// console.log(Podacikola);
+
+// const novaBoja = Podacikola.getColor();
+// console.log(novaBoja);q
+
+
+// for (let i = 0; i < 100; i += 3) {
+//     console.log(i);
+// }
+
+// const randomNumbers =  [2, 5, 30, 32, 45, 50];
+// let reversedArray = [];
+
+// for (let i = randomNumbers.length - 1; i >= 0; i--){
+//     reversedArray.push(randomNumbers[i]);
+// }
+// console.log(randomNumbers);
+// console.log(reversedArray);
+
+// const randommmNumbers = [332, 542, 543,123,4325,654,666];
+// let maxNum = 0;
+
+// for( let i = 0; i < randommmNumbers.length; i++){
+//     if (randommmNumbers[i]> maxNum){
+//         maxNum = randommmNumbers[i];
+//     }
+// }
+// console.log(maxNum);
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+const numberz = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+let number = numberz[0];
+// console.log(number);
+
+
+// Prvi element je ovoooo
+
+
+let zadnjinumber = numberz[numberz.length - 1 ];
+// console.log(zadnjinumber);
+
+
+// Ovo je zadnji element
+
+
+
+
+// METHODS      PUSH,POP,SHIFT,UNSHIFT,CONCAT,LENGTH,SLICE,SPLICE,DELETE
+
+
+numberz [11] = "300";                        
+
+// console.log(numberz);
+
+
+numberz[numberz.length] = "lemon";
+
+// console.log(numberz);
+
+
+//LENGTH    VRACA NAM DUZINU ARRAYA     ////////////////////////////////////////////
+
+let lentghhh = numberz.length;
+
+// console.log(lentghhh);
+
+
+//POP & PUSH     POP MACINJE ZADNJI ELEMENT ARRAYA            PUSH DODAJE NOVI ELEMENT NA KRAJU ARRAYA   ////////////////////////////////////////
+
+
+numberz.pop();
+
+// console.log(numberz);
+
+////////////////////////////////
+
+
+numberz.push(88);
+
+// console.log(numberz);
+
+
+////////////////////////////////////////////////////////////////////////////
+
+
+
+
+//SHIFT & UNSHIFT        SHIFT BRISE PRVI ELEMENT I SPUSTA OSTALE ELEMENTE ZA PO JEDAN INDEKS        UNSHIFT DODAJE NA START ARRAYE I DIZE OSTALE INDEKSE//////////////
+
+
+numberz.shift();
+
+// console.log(numberz);
+
+numberz.unshift("bataljoza");
+
+// console.log(numberz);
+
+
+//DELETE IZBEGAVAJ !!! ON OSTAVLJA UNDEFINED  KORISTI UMESTO TOGA POP I SHIFT ///////////////////////////////////////////////////////
+
+
+//CONCAT MERGEA 2 ARRAYA ZAJEDNO //////////////////////////////////////////////////////////
+
+const mojadeca = [32, 15];
+const merge2arrayes = numberz.concat(mojadeca);
+
+// console.log(merge2arrayes);
+
+//SPLICE USPOMOC NJEGA DODAJEMO ELEMENT NA BILO KOJE MESTO ///////////////////////////////////////////////
+
+numberz.splice(2, 0, "LJIMUN", "KIWI");
+
+// console.log(numberz);
+
+
+// 2 - pozicija gde da se ubace ElementI 
+// 0 - Koliko elemenata ce da ukloni
+// "LJIMUN" "KIWI" - elemnti koji su dodati
+
+//SLICE SECE ARRAY DO ODREDJENE MERE I ISPISE GA /////////////////////////////////////
+
+const slajs = numberz.slice(4);
+console.log(slajs);
+
+///////////////////////////////////////////////////////////KRAJ///////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
