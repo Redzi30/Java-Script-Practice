@@ -753,109 +753,150 @@
 
 
 
-const numberz = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const numberz = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-let number = numberz[0];
-// console.log(number);
-
-
-// Prvi element je ovoooo
+// let number = numberz[0];
+// // console.log(number);
 
 
-let zadnjinumber = numberz[numberz.length - 1 ];
-// console.log(zadnjinumber);
+// // Prvi element je ovoooo
 
 
-// Ovo je zadnji element
+// let zadnjinumber = numberz[numberz.length - 1 ];
+// // console.log(zadnjinumber);
 
 
-
-
-// METHODS      PUSH,POP,SHIFT,UNSHIFT,CONCAT,LENGTH,SLICE,SPLICE,DELETE
-
-
-numberz [11] = "300";                        
-
-// console.log(numberz);
-
-
-numberz[numberz.length] = "lemon";
-
-// console.log(numberz);
-
-
-//LENGTH    VRACA NAM DUZINU ARRAYA     ////////////////////////////////////////////
-
-let lentghhh = numberz.length;
-
-// console.log(lentghhh);
-
-
-//POP & PUSH     POP MACINJE ZADNJI ELEMENT ARRAYA            PUSH DODAJE NOVI ELEMENT NA KRAJU ARRAYA   ////////////////////////////////////////
-
-
-numberz.pop();
-
-// console.log(numberz);
-
-////////////////////////////////
-
-
-numberz.push(88);
-
-// console.log(numberz);
-
-
-////////////////////////////////////////////////////////////////////////////
+// // Ovo je zadnji element
 
 
 
 
-//SHIFT & UNSHIFT        SHIFT BRISE PRVI ELEMENT I SPUSTA OSTALE ELEMENTE ZA PO JEDAN INDEKS        UNSHIFT DODAJE NA START ARRAYE I DIZE OSTALE INDEKSE//////////////
+// // METHODS      PUSH,POP,SHIFT,UNSHIFT,CONCAT,LENGTH,SLICE,SPLICE,DELETE
 
 
-numberz.shift();
+// numberz [11] = "300";                        
 
-// console.log(numberz);
-
-numberz.unshift("bataljoza");
-
-// console.log(numberz);
+// // console.log(numberz);
 
 
-//DELETE IZBEGAVAJ !!! ON OSTAVLJA UNDEFINED  KORISTI UMESTO TOGA POP I SHIFT ///////////////////////////////////////////////////////
+// numberz[numberz.length] = "lemon";
+
+// // console.log(numberz);
 
 
-//CONCAT MERGEA 2 ARRAYA ZAJEDNO //////////////////////////////////////////////////////////
+// //LENGTH    VRACA NAM DUZINU ARRAYA     ////////////////////////////////////////////
 
-const mojadeca = [32, 15];
-const merge2arrayes = numberz.concat(mojadeca);
+// let lentghhh = numberz.length;
 
-// console.log(merge2arrayes);
-
-//SPLICE USPOMOC NJEGA DODAJEMO ELEMENT NA BILO KOJE MESTO ///////////////////////////////////////////////
-
-numberz.splice(2, 0, "LJIMUN", "KIWI");
-
-// console.log(numberz);
+// // console.log(lentghhh);
 
 
-// 2 - pozicija gde da se ubace ElementI 
-// 0 - Koliko elemenata ce da ukloni
-// "LJIMUN" "KIWI" - elemnti koji su dodati
+// //POP & PUSH     POP MACINJE ZADNJI ELEMENT ARRAYA            PUSH DODAJE NOVI ELEMENT NA KRAJU ARRAYA   ////////////////////////////////////////
 
-//SLICE SECE ARRAY DO ODREDJENE MERE I ISPISE GA /////////////////////////////////////
 
-const slajs = numberz.slice(4);
-console.log(slajs);
+// numberz.pop();
+
+// // console.log(numberz);
+
+// ////////////////////////////////
+
+
+// numberz.push(88);
+
+// // console.log(numberz);
+
+
+// ////////////////////////////////////////////////////////////////////////////
+
+
+
+
+// //SHIFT & UNSHIFT        SHIFT BRISE PRVI ELEMENT I SPUSTA OSTALE ELEMENTE ZA PO JEDAN INDEKS        UNSHIFT DODAJE NA START ARRAYE I DIZE OSTALE INDEKSE//////////////
+
+
+// numberz.shift();
+
+// // console.log(numberz);
+
+// numberz.unshift("bataljoza");
+
+// // console.log(numberz);
+
+
+// //DELETE IZBEGAVAJ !!! ON OSTAVLJA UNDEFINED  KORISTI UMESTO TOGA POP I SHIFT ///////////////////////////////////////////////////////
+
+
+// //CONCAT MERGEA 2 ARRAYA ZAJEDNO //////////////////////////////////////////////////////////
+
+// const mojadeca = [32, 15];
+// const merge2arrayes = numberz.concat(mojadeca);
+
+// // console.log(merge2arrayes);
+
+// //SPLICE USPOMOC NJEGA DODAJEMO ELEMENT NA BILO KOJE MESTO ///////////////////////////////////////////////
+
+// numberz.splice(2, 0, "LJIMUN", "KIWI");
+
+// // console.log(numberz);
+
+
+// // 2 - pozicija gde da se ubace ElementI 
+// // 0 - Koliko elemenata ce da ukloni
+// // "LJIMUN" "KIWI" - elemnti koji su dodati
+
+// //SLICE SECE ARRAY DO ODREDJENE MERE I ISPISE GA /////////////////////////////////////
+
+// const slajs = numberz.slice(4);
+// console.log(slajs);
 
 ///////////////////////////////////////////////////////////KRAJ///////////////////////////////////////////////////////////////////////////
 
+// const products = [{
+//     id: 1,
+//     name: "T-shirt",
+//     qty: 1,
+//     price_per_unit: 100,  
+// },
+// {
+//     id: 1,
+//     name: "Sneakers",
+//     qty: 1,
+//     price_per_unit: 300,
+// },
+// {
+//     id: 1,
+//     name: "Necklace",
+//     qty: 5,
+//     price_per_unit: 125,
+// }]
+
+
+// const calculator = (arr)=> {
+//     const productsWithTotal = arr.map(el => el.qty * el.price_per_unit)
+//     const total = productsWithTOtal.reduce((prevValue, currValue)=>{
+//         return prevValue + currValue
+//     }, 0)
+//     console.log(productsWithTotal)
+//     console.log(total)
+//     return total
+
+// }
 
 
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+console.log("Redzi30Ono moje whoo")
 
+// let myVar = 87;
+
+// myVar++;
+
+//myVar--;
+
+// myVar += 7;
+
+//myVar -= 7;
 
 
 
