@@ -886,7 +886,7 @@
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-console.log("Redzi30Ono moje whoo")
+// console.log("Redzi30Ono moje whoo")
 
 // let myVar = 87;
 
@@ -897,6 +897,9 @@ console.log("Redzi30Ono moje whoo")
 // myVar += 7;
 
 //myVar -= 7;
+
+
+console.log("Redzi30")
 
 
 
