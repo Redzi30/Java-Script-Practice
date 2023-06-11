@@ -899,10 +899,7 @@
 //myVar -= 7;
 
 
-// console.log("Redzi30")
-
-
-console.log("KOmanda")
+console.log("naache");
 
 
 
