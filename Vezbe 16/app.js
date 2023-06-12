@@ -899,7 +899,12 @@
 //myVar -= 7;
 
 
-console.log("naache");
+let myStr = "Pozdrav, ja sam";
+let myName = " Redzi";
+const poruka = myStr + myName;
+console.log(poruka);
+
+
 
 
 
