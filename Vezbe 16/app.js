@@ -899,13 +899,14 @@
 //myVar -= 7;
 
 
-let myStr = "Pozdrav, ja sam";
-let myName = " Redzi";
-const poruka = myStr + myName;
-console.log(poruka);
+// let myStr = "Pozdrav, ja sam";
+// let myName = " Redzi";
+// const poruka = myStr + myName;
+// console.log(poruka);
 
 
-console.log("Naache");
+// console.log("Naache");
+
 
 
 
