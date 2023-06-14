@@ -914,19 +914,19 @@
 // console.log(rrr);
 // const rrr = "redzi";
 
-function sayHellp(){
-    console.log("John Doe");
+// function sayHellp(){
+//     console.log("John Doe");
 
-}
-sayHellp();
-
-
+// }
+// sayHellp();
 
 
 
-var l = Math.PI;
 
-console.log(l);
+
+// var l = Math.PI;
+
+// console.log(l);
 
 
 
