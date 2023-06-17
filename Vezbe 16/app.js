@@ -922,6 +922,23 @@
 
 
 
+// const automobili = {
+
+//     ja:["vw", "audi","bmw"],
+//     redzi:["audi","vw"],
+// };
+
+
+// const allCars = Object.values(automobili);
+
+// const drugiautomobili = allCars.map((car)=>[...car,car.length]);
+// console.log(drugiautomobili);
+
+
+
+
+
+
 
 
 
