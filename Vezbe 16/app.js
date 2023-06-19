@@ -935,7 +935,12 @@
 // console.log(drugiautomobili);
 
 
-console.log("Redzi")
+// console.log("Redzi")
+
+// const hatri = document.createElement("h3");
+
+
+
 
 
 
