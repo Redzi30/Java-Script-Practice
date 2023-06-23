@@ -937,7 +937,7 @@
 
 // console.log("Redzi")
 
-const hatri = document.createElement("h3");
+// const hatri = document.createElement("h3");
 
 
 
