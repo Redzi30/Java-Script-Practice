@@ -939,7 +939,7 @@
 
 // const hatri = document.createElement("h3");
 
-// console.log("Vezbe");
+console.log("Vezbe");
 
 
 
