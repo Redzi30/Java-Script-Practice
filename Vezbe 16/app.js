@@ -939,7 +939,19 @@
 
 // const hatri = document.createElement("h3");
 
-console.log("Vezbe");
+// console.log("Vezbe");
+
+
+const prviPromise = new Promise((res, rej)=>{
+    setTimeout(()=>{
+        res("foo");
+        rej("greska");
+    }, 300);
+});
+
+prviPromise.then((el)=> console.log(el)).catch((el)=>console.log(el));
+
+
 
 
 
