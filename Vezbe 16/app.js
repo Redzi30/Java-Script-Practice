@@ -951,7 +951,7 @@
 
 // prviPromise.then((el)=> console.log(el)).catch((el)=>console.log(el));
 
-// console.log("Naacheee");
+
 
 
 
