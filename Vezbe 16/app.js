@@ -949,7 +949,11 @@
 //     }, 300);
 // });
 
-// prviPromise.then((el)=> console.log(el)).catch((el)=>console.log(el));
+prviPromise.then((el)=> console.log(el)).catch((el)=>console.log(el));
+
+
+
+
 
 
 
