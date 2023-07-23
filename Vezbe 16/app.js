@@ -949,10 +949,15 @@
 //     }, 300);
 // });
 
-prviPromise.then((el)=> console.log(el)).catch((el)=>console.log(el));
+// prviPromise.then((el)=> console.log(el)).catch((el)=>console.log(el));
 
 
 // 3 === 3;
+
+
+for (let i = 0; i < 100; i++);
+
+
 
 
 
