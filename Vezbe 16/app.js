@@ -955,10 +955,93 @@
 // 3 === 3;
 
 
-for (let i = 0; i < 100; i++);
+// for (let i = 0; i < 100; i++);                                                                 PETLJA
+
+//  const matrica = [
+//     [1,2,3],
+//     [4,5,6],
+//     [7,8,9],
+//  ];
+
+//  const  proizvodmapfn = matrica.map((manjiniz)=> (el % 2 === 0 ? el * 2 : el * 3));           MAPIRANJE
 
 
 
+
+// carName = "Volvo";
+// const carName;                                                                                HOISITNG
+
+
+
+
+// const nasCustomObject = {
+//      odelenje: "III - 10",
+//      razred: "III",
+//      brojLaptopova: 9,
+//      brzina: 4,
+//      jaciod: "svih",
+//      brt: "da",
+//      nabrajanje: [2,5,6],                                                                   METODA OBJEKTA
+//      }
+
+
+//      console.log(nasCustomObject.brt);
+
+//     console.log(nasCustomObject.nabrajanje[0]);
+
+
+
+//     null	Null	
+//     undefined	Undefined	
+//     false	Boolean	
+//     NaN	Number	
+//     0	Number	                                                                              FALSY VREDNOSTI
+//     -0	Number	
+//     0n	BigInt	
+//     ""	String	
+//     document.all	Object
+    
+
+
+
+
+
+
+//                   METODE NIZOVA                        PUSH,POP,SHIFT,UNSHIFT,CONCAT,LENGTH,SLICE,SPLICE,DELETE
+
+// 2.    FIZZ BUZZ VEZBA   
+
+
+// for (let i = 0 ; i < 100 ; i ++){
+//     if(( i % 3 === 0 ) && ( i % 5 === 0)){
+//         console.log("FizzBuzz");
+//     }else if( i % 3 === 0){
+//         console.log("Fizz");
+//     }else if( i % 5 === 0){
+//         console.log("Buzz");
+//     }else(console.log(i));
+        
+// }
+
+
+
+//    fetch("https://dummyjson.com/docs/products")
+//    .then(response => response.json())
+//    .then(data => console.log(data))
+
+
+
+
+//    const randomBroj = prompt("Nebitno")
+//    console.log(randomBroj * randomBroj);
+
+
+        
+
+
+
+
+                                                    
 
 
 
